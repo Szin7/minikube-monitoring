@@ -1,0 +1,14 @@
+# Example of the non-secret Helm settings used in the Minikube lab.
+# The active release was originally installed with the Grafana password
+# supplied on the Helm CLI. Do not commit that password.
+prometheus:
+  prometheusSpec:
+    serviceMonitorSelectorNilUsesHelmValues: false
+kubeEtcd:
+  enabled: false
+kubeControllerManager:
+  enabled: false
+kubeScheduler:
+  enabled: false
+kubeProxy:
+  enabled: false
