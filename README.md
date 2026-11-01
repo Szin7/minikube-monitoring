@@ -78,7 +78,29 @@ Open `http://localhost:9093`
 
 ## Screenshots
 
-Screenshots of the Kubernetes monitoring dashboards, Node Exporter metrics, Prometheus targets, and monitoring components will be included here.
+### Kubernetes workloads
+
+CPU usage for workloads in the `argocd` namespace.
+
+![Kubernetes workload CPU usage](screenshots/kubernetes-workloads.png)
+
+### Node CPU
+
+CPU utilization and load average from the Node Exporter dashboard.
+
+![Node CPU metrics](screenshots/node-cpu.png)
+
+### Node memory
+
+Node memory usage in Grafana.
+
+![Node memory metrics](screenshots/node-memory.png)
+
+### Network traffic
+
+Received and transmitted network traffic on the Minikube node.
+
+![Node network traffic](screenshots/node-network.png)
 
 ## What I Learned
 
